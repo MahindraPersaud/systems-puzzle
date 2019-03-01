@@ -1,5 +1,5 @@
 from database import Base
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, Text
 from sqlalchemy.types import DateTime
 
 class Items(Base):
@@ -10,5 +10,5 @@ class Items(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String(256))
     quantity = Column(Integer)
-    description = Column(String(256))
+    description = Column(Text())
     date_added = Column(DateTime())
