@@ -22,7 +22,6 @@ services:
   nginx:
     image: "nginx:1.13.5"
     ports:
-      - "8080"
       - "8080:80"
     volumes:
       - ./conf.d:/etc/nginx/conf.d
