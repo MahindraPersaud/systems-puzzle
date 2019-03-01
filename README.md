@@ -1,5 +1,13 @@
 # Insight DevOps Engineering Systems Puzzle
 
+## Changes made to the code
+* Fixed the nginx port mapping to 8080:80 to match the default used
+* Fixed the spacing in flaskapp
+* Changed the models.py type of string(256) for description to be of tpye Text to match models.py
+* Removed the unneeded expose port config
+* Added flaskapp to the docker volumes and changed the port in flaskapp config to 5000
+* Added a new html file for the results of the items intered to be imported when sucessful
+
 ## Table of Contents
 1. [Understanding the puzzle](README.md#understanding-the-puzzle)
 2. [Introduction](README.md#introduction)
