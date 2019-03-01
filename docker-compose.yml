@@ -24,7 +24,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./conf.d:flaskapp.conf/etc/nginx/conf.d/default.conf
+      - ./conf.d:flaskapp.conf/etc/nginx/conf.d/flaskapp.conf
     networks:
       - web_network
     depends_on: 
